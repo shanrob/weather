@@ -21,6 +21,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">Weather App</header>
+      <form>
+        <input type="text" placeholder="Enter city" />
+        <button type="submit">Submit</button>
+      </form>
       <Weather weatherData={weatherData} />
       <footer className="App-footer">Please God pretty please</footer>
     </div>
